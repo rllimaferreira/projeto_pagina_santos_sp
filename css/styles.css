@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(37,37,37);
+    background-color: #2e912f;
 }
 
 .nav_bar div {
@@ -47,11 +47,13 @@
 }
 
 .menu_itens a:hover {
-    background-color: #2171a2;
+    background-color: #57d35c;
 }
 
 .principal {
-
+    width: 100%;
+    height: 500px;
+    
 }
 
 .dobra1 {
@@ -65,41 +67,41 @@
     position: absolute;
     top: 255px;
     margin-left: 7%;
-    color: yellow;
-    text-shadow: black;
-}
-
-.dobra2 {
-    display: flex;
-    width: 100%;
-    height: 450px;
-    background-color: rgb(37,37,37);
-    gap: 20px;
-}
-
-.curiosidades {
-    display: flex;
-    width: 50%;
-    height: 300px;
-    background-color: white;
+    color: black;
+    text-shadow: white;
 }
 
 footer {
     display: flex;
     width: 100%;
     height: 300px;
-    background-color: rgb(37,37,37);
+    background-color: #2e912f;
+    align-items: center;
+    justify-content: center;
 }
 
-.contatos {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: baseline;
-        align-content: space-between;
+.redes {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    border: solid; */
+    /* margin: 0.5%; */
+
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 }
 
-footer p {
+.p_footer {
+    display: flex;
     color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
