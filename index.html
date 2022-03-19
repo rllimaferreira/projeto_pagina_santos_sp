@@ -5,54 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="img/praianos_santos_sp.ico" type="image/x-icon">
-    <title>Conheça Santos (SP)</title>
+    <link rel="shortcut icon" href="img/santos_sp_favicon.ico" type="image/x-icon">
+    <title>Conheça Santos (SP)!</title>
 </head>
 
-<header>
-    <nav class="nav_bar" .nav_bar>
-        <div class="logo_nav">
-            <img src="/img/santos_sp_logo.jpg" alt="Cidade de Santos - Logo">
-            <h1 class="titulo_logo">Cidade de Santos</h2>
-        </div>
-        <div class="menu_itens">
-            <a href="#">Início</a>
-            <a href="#">História</a>
-            <a href="#">Lugares Para Visitar</a>
-            <a href="#">Vídeos de Curiosidades</a>
-        </div>
-    </nav>
-</header>
+<body>
+    <header>
+        <nav class="nav_bar">
+            <div class="logo_nav">
+                <img src="/img/santos_sp_logo.jpg" alt="Cidade de Santos - Logo">
+                <h1 class="titulo_logo">Cidade de Santos</h2>
+            </div>
+            <div class="menu_itens">
+                <a href="#inicio">Início</a>
+                <a href="#curiosidades">Curiosidades</a>
+                <a href="#video">Vídeos</a>
+                <a href="https://www.santos.sp.gov.br/" target="_blank">Site da Prefeitura</a>
+            </div>
+        </nav>
+    </header>
 
-<body class="flex">
-
-        <main class="principal">
-
-        <section class="dobra1"> 
+        <section class="dobra1" id="inicio"> 
             <div>
                 <div class="h1_boasvindas">
-                    <h1>Seja Bem-Vindo à Cidade de Santos</h1>
+                    <h1>✋😃Bem-Vindo (a) à Cidade de Santos</h1>
                 </div>
             </div>
         </section>
+        <h2 id="curiosidades">Curiosidades</h2>
+        <section class="dobra2">
+            <div class="caixas3">
+                <div class="caixa">
+                    <h3>A Fundação</h3>
+                    <img src="img/santos_sp_logo_amarela.jpg" alt="">
+                    <p>Atribui-se a fundação de Santos a Brás Cubas, sertanista português que, em 1536, recebeu a mais vasta sesmaria do litoral da Capitania de São Vicente. O povoado, com nome simplificado de Santos foi elevado à categoria de vila em 1545.</p>
+                </div>
 
-        <!-- Continuar a partir daqui... -->
+                <div class="caixa">
+                    <h3>O Maior Jardim de Orla</h3>
+                    <img src="img/santos_sp_logo_amarela.jpg" alt="">
+                    <p>Cidade mais populosa do litoral paulista, o principal cartão-postal do município são os 7 km de praia. O Livro dos Recordes situa os jardins da orla de Santos como formadores do maior jardim frontal de praia em extensão do mundo.</p>
+                </div>
+
+                <div class="caixa">
+                    <h3>Caixa 3</h3>
+                    <img src="img/santos_sp_logo_amarela.jpg" alt="">
+                    <p>O Produto Interno Bruto (PIB) é o maior da Região Metropolitana da Baixada Santista, o 13º do estado de São Paulo e o 33º de todo o país, em 2016. O Complexo Portuário de Santos responde por mais de um quarto da movimentação da balança comercial brasileira.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+        <h2 id="video">Vídeo</h2>
+        <section class="dobra3">
+            <div class="video">
+                <iframe width="470" height="315" src="https://www.youtube.com/embed/_ZLD4zY1Vms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
 
 
     </main>
 
+    <footer>
+        <section class="rodape">
+            <h2>Rodapé</h2>
+            <div class="redes">
+            <a href="https://www.linkedin.com/in/rllimaferreira/"><img src="img/linkedin_icon.jpg" alt="LinkedIn">
+                <h5>Linkedin</h5>
+            </a>
+            <a href="https://github.com/rllimaferreira"><img src="img/github_icon.jpg" alt="GitHub">
+                <h5>GitHub</h5>
+            </a>
+            </div>
+
+            <p>© Todos os Direitos Reservados (2022) | Desenvolvido por Rodrigo L. de Lima Ferreira | Certified Tech Developer (CTD) | Digital House (Brasil)</p>
+
+        </section>
+
+    </footer>
+
 </body>
-<footer>
-    <div class="redes">
-        <a href="https://www.linkedin.com/in/rllimaferreira/"><img src="img/linkedin_icon.jpg" alt="LinkedIn">
-            <h5>Linkedin</h5>
-        </a>
-        <a href="https://www.linkedin.com/in/rllimaferreira/"><img src="img/github_icon.jpg" alt="GitHub">
-            <h5>GitHub</h5>
-        </a>
-    </div>
-    <div class="p_footer">
-        <p>© Todos os Direitos Reservados (2022) | Desenvolvido por Rodrigo L. de Lima Ferreira | Certified Tech Developer (CTD) | Digital House (Brasil)</p>
-    </div>
-</footer>
+
 </html>

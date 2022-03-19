@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .nav_bar {
@@ -11,7 +12,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #2e912f;
+    background-color: #203a14;
+    z-index: 2;
 }
 
 .nav_bar div {
@@ -47,12 +49,14 @@
 }
 
 .menu_itens a:hover {
-    background-color: #57d35c;
+    color: #2e912f;
 }
 
 .principal {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 500px;
+    margin-bottom: 50px;
     
 }
 
@@ -67,41 +71,109 @@
     position: absolute;
     top: 255px;
     margin-left: 7%;
-    color: black;
-    text-shadow: white;
+    color: rgb(245, 245, 245);
+    background-color: #203a14;
+    font-size: 24px;
 }
 
-footer {
+.dobra2 {
     display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 300px;
-    background-color: #2e912f;
+    background-color: white;
+    gap: 80px;
+}
+
+.caixas3 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 25px;
+}
+
+.caixas3 .caixa {
+    background-color: yellow;
+    flex-wrap: wrap;
+    border: solid 2px #203a14;
+}
+
+/* .caixas img {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+} */
+
+.caixa p {
+    text-align: justify;
+    margin: 20px;
+}
+
+.caixa h3 {
+    margin: 20px;
+    text-align: center;
+}
+
+/* .principal h2 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+} */
+
+
+.dobra3 {
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: #203a14;
+    align-items: center;
+    padding: 30px;
+}
+
+.rodape h2 {
+    color: white;
 }
 
 .redes {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    border: solid; */
-    /* margin: 0.5%; */
-
     display: flex;
+    flex-direction: row;
     gap: 30px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+    text-align: center;
+    margin: 30px;
 }
 
-.p_footer {
-    display: flex;
+.redes img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.redes a {
     color: white;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
+
+.rodape p {
+    color: white;
+}
+
+/* @media screen {min-width: 300px;
+    .caixas {
+        flex-wrap: wrap;
+        margin: 50px;
+        gap: 25px;
+    }
+} */
