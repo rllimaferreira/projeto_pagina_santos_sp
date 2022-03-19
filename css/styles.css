@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37,37,37);
+}
+
+.nav_bar div {
+    flex: 1 1 100px;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_bar * {
+    margin: 10px;
+}
+
+.nav_bar img {
+    width: 60px;
+    height: 60px;
+}
+
+.titulo_logo {
+    color: white;
+    font-weight: bold;
+}
+
+.logo_nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu_itens {
+    display: flex;
+}
+
+.menu_itens a:hover {
+    background-color: #2171a2;
+}
+
+.principal {
+
+}
+
+.dobra1 {
+    width: 100%;
+    height: 500px;
+    background-image: url('/img/jardim_da_orla_santos_sp.jpg');
+    background-size: cover;
+}
+
+.dobra1 h1 {
+    position: absolute;
+    top: 255px;
+    margin-left: 7%;
+    color: yellow;
+    text-shadow: black;
+}
+
+.dobra2 {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(37,37,37);
+    gap: 20px;
+}
+
+.curiosidades {
+    display: flex;
+    width: 50%;
+    height: 300px;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(37,37,37);
+}
+
+.contatos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: baseline;
+        align-content: space-between;
+}
+
+footer p {
+    color: white;
+}
