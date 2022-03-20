@@ -52,13 +52,18 @@
     color: #2e912f;
 }
 
-.principal {
+/* main {
+    max-width: 12;
+    margin: auto;
+} */
+
+/* .principal {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 50px;
     
-}
+} */
 
 .dobra1 {
     width: 100%;
