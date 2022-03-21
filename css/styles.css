@@ -57,18 +57,22 @@
     margin: auto;
 } */
 
-/* .principal {
+main {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 50px;
-    
-} */
+} 
+
+main h2 {
+    text-align: center;
+    margin-top: 50px;
+}
 
 .dobra1 {
     width: 100%;
     height: 500px;
-    background-image: url('/img/jardim_da_orla_santos_sp.jpg');
+    background-image: url('/img/santos_cidade_sp.jpeg');
     background-size: cover;
 }
 
@@ -93,6 +97,10 @@
     display: flex;
     flex-direction: row;
     margin: 50px;
+
+    /* width: auto;
+    height: auto; */
+
     gap: 25px;
 }
 
@@ -138,6 +146,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
