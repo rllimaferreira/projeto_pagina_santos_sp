@@ -150,6 +150,87 @@ main h2 {
     margin-bottom: 50px;
 }
 
+/* Teste */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content {
+    /* background-image: linear-gradient(to right, rgb(32,58,20), rgb(39, 211, 39)); */
+    /* background-image: url(http:/
+    /127.0.0.1:5500/img/santos_sp_logo_amarela.jpg); */
+    /* margin: 5px;
+    width: 30%;
+    border: solid 10px rgb(32,58,20);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    min-height: auto; */
+
+    min-width:200px;
+    height:300px;
+    margin: 10px;
+    background-color:;
+    border:5px solid #076e2a;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.content:hover {
+    box-shadow: 3px -176px 127px -26px rgba(0, 0, 0, 1) inset;
+    -webkit-box-shadow: 3px -176px 127px -26px rgba(0, 0, 0, 1) inset;
+    -moz-box-shadow: 3px -176px 127px -26px rgba(0, 0, 0, 1) inset;
+    -webkit-transition: ease-out 0.6s;
+    transition: ease-out 0.6s;
+}
+
+.content h3 {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: #076e2a;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: auto;
+    
+}
+
+#caixa1 {
+    background-image: url(https://www.viagensecaminhos.com/wp-content/uploads/2012/02/santos.jpg);
+    background-size: cover;
+}
+
+#caixa2 {
+    background-image: url(https://www.viagensecaminhos.com/wp-content/uploads/2012/02/santos.jpg);
+    background-size: cover;
+}
+
+#caixa3 {
+    background-image: url(https://www.viagensecaminhos.com/wp-content/uploads/2012/02/santos.jpg);
+    background-size: cover;
+}
+
+.content p {
+    font-family: arial;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+    /* padding: 20px; */
+    /* max-height: 500px; */
+}
+
+@media (max-width: 525px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .content {
+        margin: 5px 0px 5px 0px;
+        width: 100%;
+    }
+}
+
+/* Início da estilização do rodapé */
 .rodape {
     display: flex;
     flex-direction: column;
