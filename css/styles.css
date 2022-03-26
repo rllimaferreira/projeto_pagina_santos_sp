@@ -72,7 +72,7 @@ main h2 {
 .dobra1 {
     width: 100%;
     height: 500px;
-    background-image: url('/img/santos_cidade_sp.jpeg');
+    background-image: url('img/santos_cidade_sp.jpeg');
     background-size: cover;
 }
 
